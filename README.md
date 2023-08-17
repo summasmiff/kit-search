@@ -6,6 +6,8 @@ Small app to display Biobot kit shipping data. Enter a partial or complete test 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
+### Install dependencies
+`npm install`
 ### To start the Express server, from the main project directory, run:
 `node server.js`
 
