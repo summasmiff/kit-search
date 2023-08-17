@@ -1,12 +1,15 @@
 # Kit Search
 
+<img src="./public/screenshot.png" alt="Kit Search screenshot" />
+
 Small app to display Biobot kit shipping data. Enter a partial or complete test kit ID to see shipment tracking details.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
 ### To start the Express server, from the main project directory, run:
 `node server.js`
-You should see "Server listening on "Server listening on port: 8080"
+
+You should see "Server listening on port: 8080"
 
 ### To start the React app, from the main project directory, run:
 `npm start`
