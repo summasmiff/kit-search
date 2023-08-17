@@ -10,7 +10,7 @@ describe('GET /ping', () => {
 });
 
 describe('GET /search', () => {
-  it('should return 200 with empty query string', async () => {
+  it('should return 200 and empty body without query string', async () => {
     const response = await request(baseURL).get('/search');
     expect(response.statusCode).toBe(200);
     expect(response.body.data).toStrictEqual([]);
