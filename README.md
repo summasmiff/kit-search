@@ -4,22 +4,24 @@ Small app to display Biobot kit shipping data. Enter a partial or complete test 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
-To start the Express server, from the main project directory, run:
-### `node server.js`
+### To start the Express server, from the main project directory, run:
+`node server.js`
 You should see "Server listening on "Server listening on port: 8080"
 
-To start the React app, from the main project directory, run:
-### `npm start`
+### To start the React app, from the main project directory, run:
+`npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+## Testing
+`npm test`
 
 Launches the test runner in the interactive watch mode for tests in `./src/_tests_`.\
 Server tests cover API /search endpoint usage.\
 Frontend tests are a TODO list item.
 
-### `npm run build`
+## Build
+`npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
